@@ -26,6 +26,7 @@ INSTALLED_APPS = [
     "users",
     "habits",
     "corsheaders",
+    "drf_yasg",
 
 ]
 
