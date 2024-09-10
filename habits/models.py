@@ -16,8 +16,11 @@ PERIODIC_HABIT = (
 
 class Habit(models.Model):
     owner = models.ForeignKey(
-        AUTH_USER_MODEL, on_delete=models.CASCADE, verbose_name="Создатель привычки", blank=True,
-        null=True
+        AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+        verbose_name="Создатель привычки",
+        blank=True,
+        null=True,
     )
     place = models.CharField(
         max_length=100,

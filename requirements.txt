@@ -8,3 +8,4 @@ celery==5.4.0
 redis==5.0.8
 requests==2.32.3
 django-celery-beat==2.7.0
+django-cors-headers==4.4.0
